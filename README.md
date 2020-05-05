@@ -14,12 +14,12 @@ In order to get it work, you should get the R libs.
 ## Under ubuntu
 
 It is better to have a 32 bits version of Ubuntu to get the libraries.
-I tried under a 64 bits versions and I not succeded to do it work. To get them:
+I tried with a 64 bits version but did not succeded to have it working. To get them:
 
 ```Smalltalk
-dpkg --add-architecture i386
-apt-get update
-apt-get install r-base-core:i386https://github.com/VincentBlondeau
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install r-base-core:i386https://github.com/VincentBlondeau
 ```
 
 And copy the librairies ("libR.so") in the Pharo vm folder.
