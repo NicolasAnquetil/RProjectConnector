@@ -2,6 +2,8 @@
 RProjectConnector is a library providing a binding between Pharo and [R](http://www.r-project.org).
 It was recovered from a SmalltalkHub project with the same name created by [Vincent Blondeau](https://github.com/VincentBlondeau).
 
+BEWARE THAT THIS IS A VERY OLD PROJECT RELYING ON USING C LIBS IN PHARO : DON"T EXPECT IT TO WORK ON NEW PHARO WITHOUT WORK, IT WON'T
+
 The following is a copy of the previous project ReadMe
 
 This binding is done through UFFI primitive calls
