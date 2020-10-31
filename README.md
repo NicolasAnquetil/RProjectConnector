@@ -2,7 +2,7 @@
 RProjectConnector is a library providing a binding between Pharo and [R](http://www.r-project.org).
 It was recovered from a SmalltalkHub project with the same name created by [Vincent Blondeau](https://github.com/VincentBlondeau).
 
-BEWARE THAT THIS IS A VERY OLD PROJECT RELYING ON USING C LIBS IN PHARO : DON"T EXPECT IT TO WORK ON NEW PHARO WITHOUT WORK, IT WON'T
+:heavy_exclamation_mark: BEWARE THAT THIS IS A VERY OLD PROJECT RELYING ON USING C LIBS IN PHARO : DON"T EXPECT IT TO WORK ON NEW PHARO WITHOUT WORK, IT WON'T :heavy_exclamation_mark:
 
 The following is a copy of the previous project ReadMe
 
@@ -104,7 +104,7 @@ For now there is no control of session in the image, try to not use R objects fr
 
 # Links
 
--    Some documentation on external R library on: http://www.math.ncu.edu.tw/~chenwc/R_note/reference/package/R-exts.pdf (p64)
+-    Some documentation on external R library on: https://cran.r-project.org/doc/manuals/r-release/R-exts.pdf (p64)
 -    The RSources http://cran.r-project.org/sources.html. The header C file R-3.1.1\src\include\Rinternals.h shows all the functions that can be called through the primitives. For information, the compilation variable "USE_RINTERNALS" is not defined in the compiled libraries.
 -    Documentation on R environments: http://adv-r.had.co.nz/Environments.html
 -    Example in C: https://gist.github.com/Sharpie/323498
