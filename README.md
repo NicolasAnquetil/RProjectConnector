@@ -4,7 +4,8 @@ It was recovered from a SmalltalkHub project with the same name created by [Vinc
 
 :heavy_exclamation_mark: BEWARE THAT THIS IS A VERY OLD PROJECT RELYING ON USING C LIBS IN PHARO : DON"T EXPECT IT TO WORK ON NEW PHARO WITHOUT WORK, IT WON'T :heavy_exclamation_mark:
 
-The following is a copy of the previous project ReadMe, xhich means that 'I' in the text does not refer to me but to [VincentBlondeau](https://github.com/VincentBlondeau/RProjectConnector)
+The following is a strict copy of the previous (upstream) project ReadMe.
+This means that 'I' in the text does not refer to me but to [VincentBlondeau](https://github.com/VincentBlondeau/RProjectConnector).
 
 -------
 
@@ -55,7 +56,8 @@ If you forgot to install the libraries or if they are not well installed, you sh
 
 # Features and examples
 
-If you want to execute a R function, you should (for now) know what is the name of the function and the parameters that it takes. If you misspeled the function name, the Pharo image will crash (that's a feature of R, that doesn't handle well the errors ;) ).
+If you want to execute a R function, you should (for now) know what is the name of the function and the parameters that it takes.
+If you misspeled the function name, the Pharo image will crash (that's a feature of R, that doesn't handle well the errors ;) ).
 
 For example, if you want to evaluate the method 'acf' (Autocorrelation function) on a sample of data, you can do:
 
