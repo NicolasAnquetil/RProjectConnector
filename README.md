@@ -24,7 +24,7 @@ I tried with a 64 bits version but did not succeded to have it working. To get t
 ```Smalltalk
 sudo dpkg --add-architecture i386
 sudo apt-get update
-sudo apt-get install r-base-core:i386https://github.com/VincentBlondeau
+sudo apt-get install r-base-core:i386 https://github.com/VincentBlondeau
 ```
 
 And copy the librairies ("libR.so") in the Pharo vm folder.
